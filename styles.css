@@ -74,7 +74,7 @@ button{
   width: 150px;
 }
 .main-text {
-  font-size:x-large;
+  font-size:xx-large;
   font-weight: 900;
   color: #F9FAF8;
 }
@@ -87,7 +87,7 @@ button{
   gap: 16px;
 }
 .random-info {
-  background-color: #E5E7EB;
+  background-color: #fff;
   color: #1F2937;
 }
 .photo {
@@ -121,4 +121,31 @@ button{
   align-items: center;
   justify-content: center;
   height: 15vh;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+.quote {
+  width: 40vw;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.quote {
+  font-size:xx-large;
+  font-style: italic;
+  font-weight: 100;
+}
+.speaker {
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
 }
