@@ -6,7 +6,7 @@
 
 body {
   /* min-height: 100vh; */
-  max-width: 80vw;
+  /* max-width: 70vw; */
   margin: 0 auto;
   background-color: #1F2937;
   color: #fff;
@@ -16,7 +16,8 @@ body {
 
 .one,.two,.three,.four {
   height: 50vh;
-  border: solid 2px palevioletred;
+  padding: 0 15vw;
+  /* border: solid 2px palevioletred; */
 }
 .nav-bar {
   /* border: solid 2px honeydew; */
@@ -24,21 +25,69 @@ body {
   height: 5vh;
   justify-content: space-between;
   align-items: center;
+  flex: ;
 }
 .links {
   /* border: solid 2px honeydew; */
   display: flex;
   gap: 2vw;
   list-style-type: none;
+  flex: 1;
 }
 
 .logo {
   font-weight: bold;
   font-size: medium;
   color: #F9FAF8;
+  flex: 1;
 }
 
 a {
   text-decoration: none;
   color: #E5E7EB;
+}
+.hero {
+  /* border: solid 2px darkgoldenrod; */
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:50px;
+  flex: 1;
+}
+.placeholder {
+  width: 60vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+button{
+  background-color: #3882F6;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 150px;
+}
+.main-text {
+  font-size:x-large;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+.description {
+  font-size: medium;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.random-info {
+  background-color: #E5E7EB;
 }
